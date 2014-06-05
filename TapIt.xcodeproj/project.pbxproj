@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D910B7BB193FFB3200ADCF1B /* PLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D910B7BA193FFB3200ADCF1B /* PLConnection.m */; };
+		D910B7BF194005A200ADCF1B /* start_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D910B7BC194005A200ADCF1B /* start_pressed.png */; };
+		D910B7C0194005A200ADCF1B /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = D910B7BD194005A200ADCF1B /* bug.png */; };
+		D910B7C1194005A200ADCF1B /* ic_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D910B7BE194005A200ADCF1B /* ic_logo.png */; };
 		D965F82D193EC2A600BAE8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F82C193EC2A600BAE8FC /* Foundation.framework */; };
 		D965F82F193EC2A600BAE8FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F82E193EC2A600BAE8FC /* CoreGraphics.framework */; };
 		D965F831193EC2A600BAE8FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F830193EC2A600BAE8FC /* UIKit.framework */; };
@@ -22,6 +26,9 @@
 		D965F851193EC2A600BAE8FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F830193EC2A600BAE8FC /* UIKit.framework */; };
 		D965F859193EC2A600BAE8FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D965F857193EC2A600BAE8FC /* InfoPlist.strings */; };
 		D965F85B193EC2A600BAE8FC /* TapItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D965F85A193EC2A600BAE8FC /* TapItTests.m */; };
+		D965F869193EC63500BAE8FC /* PLGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D965F868193EC63500BAE8FC /* PLGameViewController.m */; };
+		D965F86B193EC6FB00BAE8FC /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = D965F86A193EC6FB00BAE8FC /* start.png */; };
+		D965F871193ED68800BAE8FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D965F870193ED68800BAE8FC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D910B7B9193FFB3200ADCF1B /* PLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLConnection.h; sourceTree = "<group>"; };
+		D910B7BA193FFB3200ADCF1B /* PLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLConnection.m; sourceTree = "<group>"; };
+		D910B7BC194005A200ADCF1B /* start_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start_pressed.png; path = "../../../Downloads/recursos-tap-insect/start_pressed.png"; sourceTree = "<group>"; };
+		D910B7BD194005A200ADCF1B /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bug.png; path = "../../../Downloads/recursos-tap-insect/bug.png"; sourceTree = "<group>"; };
+		D910B7BE194005A200ADCF1B /* ic_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_logo.png; path = "../../../Downloads/recursos-tap-insect/ic_logo.png"; sourceTree = "<group>"; };
 		D965F829193EC2A600BAE8FC /* TapIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D965F82C193EC2A600BAE8FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D965F82E193EC2A600BAE8FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,12 +61,16 @@
 		D965F842193EC2A600BAE8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		D965F844193EC2A600BAE8FC /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
 		D965F845193EC2A600BAE8FC /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
-		D965F847193EC2A600BAE8FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D965F847193EC2A600BAE8FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TapIt/Images.xcassets; sourceTree = "<group>"; };
 		D965F84D193EC2A600BAE8FC /* TapItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D965F84E193EC2A600BAE8FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D965F856193EC2A600BAE8FC /* TapItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapItTests-Info.plist"; sourceTree = "<group>"; };
 		D965F858193EC2A600BAE8FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D965F85A193EC2A600BAE8FC /* TapItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapItTests.m; sourceTree = "<group>"; };
+		D965F867193EC63500BAE8FC /* PLGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGameViewController.h; sourceTree = "<group>"; };
+		D965F868193EC63500BAE8FC /* PLGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGameViewController.m; sourceTree = "<group>"; };
+		D965F86A193EC6FB00BAE8FC /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		D965F870193ED68800BAE8FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D965F871193ED68800BAE8FC /* QuartzCore.framework in Frameworks */,
 				D965F82F193EC2A600BAE8FC /* CoreGraphics.framework in Frameworks */,
 				D965F831193EC2A600BAE8FC /* UIKit.framework in Frameworks */,
 				D965F82D193EC2A600BAE8FC /* Foundation.framework in Frameworks */,
@@ -81,10 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D910B7B8193FFB1B00ADCF1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D910B7B9193FFB3200ADCF1B /* PLConnection.h */,
+				D910B7BA193FFB3200ADCF1B /* PLConnection.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		D965F820193EC2A500BAE8FC = {
 			isa = PBXGroup;
 			children = (
 				D965F832193EC2A600BAE8FC /* TapIt */,
+				D965F847193EC2A600BAE8FC /* Images.xcassets */,
+				D965F833193EC2A600BAE8FC /* Supporting Files */,
 				D965F854193EC2A600BAE8FC /* TapItTests */,
 				D965F82B193EC2A600BAE8FC /* Frameworks */,
 				D965F82A193EC2A600BAE8FC /* Products */,
@@ -103,6 +131,7 @@
 		D965F82B193EC2A600BAE8FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D965F870193ED68800BAE8FC /* QuartzCore.framework */,
 				D965F82C193EC2A600BAE8FC /* Foundation.framework */,
 				D965F82E193EC2A600BAE8FC /* CoreGraphics.framework */,
 				D965F830193EC2A600BAE8FC /* UIKit.framework */,
@@ -114,14 +143,16 @@
 		D965F832193EC2A600BAE8FC /* TapIt */ = {
 			isa = PBXGroup;
 			children = (
+				D910B7B8193FFB1B00ADCF1B /* Services */,
+				D965F864193EC5A100BAE8FC /* Images */,
 				D965F83B193EC2A600BAE8FC /* PLAppDelegate.h */,
 				D965F83C193EC2A600BAE8FC /* PLAppDelegate.m */,
 				D965F83E193EC2A600BAE8FC /* Main_iPhone.storyboard */,
 				D965F841193EC2A600BAE8FC /* Main_iPad.storyboard */,
 				D965F844193EC2A600BAE8FC /* PLViewController.h */,
 				D965F845193EC2A600BAE8FC /* PLViewController.m */,
-				D965F847193EC2A600BAE8FC /* Images.xcassets */,
-				D965F833193EC2A600BAE8FC /* Supporting Files */,
+				D965F867193EC63500BAE8FC /* PLGameViewController.h */,
+				D965F868193EC63500BAE8FC /* PLGameViewController.m */,
 			);
 			path = TapIt;
 			sourceTree = "<group>";
@@ -135,6 +166,7 @@
 				D965F83A193EC2A600BAE8FC /* TapIt-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = TapIt;
 			sourceTree = "<group>";
 		};
 		D965F854193EC2A600BAE8FC /* TapItTests */ = {
@@ -153,6 +185,17 @@
 				D965F857193EC2A600BAE8FC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D965F864193EC5A100BAE8FC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D910B7BC194005A200ADCF1B /* start_pressed.png */,
+				D910B7BD194005A200ADCF1B /* bug.png */,
+				D910B7BE194005A200ADCF1B /* ic_logo.png */,
+				D965F86A193EC6FB00BAE8FC /* start.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +277,11 @@
 			files = (
 				D965F843193EC2A600BAE8FC /* Main_iPad.storyboard in Resources */,
 				D965F848193EC2A600BAE8FC /* Images.xcassets in Resources */,
+				D910B7C1194005A200ADCF1B /* ic_logo.png in Resources */,
+				D910B7BF194005A200ADCF1B /* start_pressed.png in Resources */,
+				D910B7C0194005A200ADCF1B /* bug.png in Resources */,
 				D965F840193EC2A600BAE8FC /* Main_iPhone.storyboard in Resources */,
+				D965F86B193EC6FB00BAE8FC /* start.png in Resources */,
 				D965F837193EC2A600BAE8FC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +303,8 @@
 			files = (
 				D965F83D193EC2A600BAE8FC /* PLAppDelegate.m in Sources */,
 				D965F846193EC2A600BAE8FC /* PLViewController.m in Sources */,
+				D965F869193EC63500BAE8FC /* PLGameViewController.m in Sources */,
+				D910B7BB193FFB3200ADCF1B /* PLConnection.m in Sources */,
 				D965F839193EC2A600BAE8FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +520,7 @@
 				D965F860193EC2A600BAE8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D965F861193EC2A600BAE8FC /* Build configuration list for PBXNativeTarget "TapItTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +529,7 @@
 				D965F863193EC2A600BAE8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
